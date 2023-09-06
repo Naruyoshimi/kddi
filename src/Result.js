@@ -10,7 +10,7 @@ export const Result = (props) => {
       <h2>選択中の色： {color}</h2>
       <h2>補色: {hexToComplimentary(color)}</h2>
       <Button color={color} bg={hexToComplimentary(color)}>
-        Button
+        Buttonasdg
       </Button>
     </>
   );
